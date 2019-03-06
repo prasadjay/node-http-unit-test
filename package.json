@@ -1,0 +1,24 @@
+{
+  "name": "node-http-unit-test",
+  "version": "1.0.0",
+  "description": "node-http-unit-test",
+  "main": "app.js",
+  "scripts": {
+    "test": "nyc --reporter=text mocha --timeout 15000 --exit",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasadjay/node-http-unit-test"
+  },
+  "author": "Prasad Jayashanka",
+  "license": "ISC",
+  "homepage": "https://medium.com/@prasadjay",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
